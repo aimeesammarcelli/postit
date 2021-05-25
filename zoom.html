@@ -1,0 +1,66 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Post-It</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="layout.css">
+  <link rel="stylesheet" href="post-it.css">
+</head>
+<body>
+  <article style="border: none;"></article>
+  <div   class="post-it-note add" draggable="true"  class="add"> <p>+</p></div> 
+  <header>
+    <a  href="index.html">
+      <h1 id="target" ondrop="drop_handler(event)" ondragover="dragover_handler(event)">Post-It !</h1>
+    </a>
+    <nav>
+      <ul>
+        <li><a id="target" ondrop="drop_handler(event)" ondragover="dragover_handler(event)"  href="#">Link</a></li>
+        <li><a id="target" ondrop="drop_handler(event)" ondragover="dragover_handler(event)" href="#">Link</a></li>
+        <li><a id="target" ondrop="drop_handler(event)" ondragover="dragover_handler(event)" href="#">Link</a></li>
+        <li><a id="target" ondrop="drop_handler(event)" ondragover="dragover_handler(event)" href="#">Link</a></li>
+        <li><a id="target" ondrop="drop_handler(event)" ondragover="dragover_handler(event)" href="#">Link</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <article>
+      <img id="target" ondrop="drop_handler(event)" ondragover="dragover_handler(event)" src="https://placehold.it/1900x1200" alt="">
+    </article>
+  </main>
+  
+  <footer>
+    <nav>
+      <ul>
+        <h4 id="target" ondrop="drop_handler(event)" ondragover="dragover_handler(event)">Menu 1</h4>
+        <li><a id="target" ondrop="drop_handler(event)" ondragover="dragover_handler(event)" href="#">Link</a></li>
+        <li><a id="target" ondrop="drop_handler(event)" ondragover="dragover_handler(event)" href="#">Link</a></li>
+        <li><a id="target" ondrop="drop_handler(event)" ondragover="dragover_handler(event)" href="#">Link</a></li>
+        <li><a id="target" ondrop="drop_handler(event)" ondragover="dragover_handler(event)" href="#">Link</a></li>
+        <li><a id="target" ondrop="drop_handler(event)" ondragover="dragover_handler(event)" href="#">Link</a></li>
+      </ul>
+
+      <ul>
+        <h4 id="target" ondrop="drop_handler(event)" ondragover="dragover_handler(event)">Menu 2</h4>
+        <li><a id="target" ondrop="drop_handler(event)" ondragover="dragover_handler(event)" href="#">Link</a></li>
+        <li><a id="target" ondrop="drop_handler(event)" ondragover="dragover_handler(event)" href="#">Link</a></li>
+        <li><a id="target" ondrop="drop_handler(event)" ondragover="dragover_handler(event)" href="#">Link</a></li>
+        <li><a id="target" ondrop="drop_handler(event)" ondragover="dragover_handler(event)" href="#">Link</a></li>
+        <li><a id="target" ondrop="drop_handler(event)" ondragover="dragover_handler(event)" href="#">Link</a></li>
+      </ul>
+
+      <ul>
+        <h4 id="target" ondrop="drop_handler(event)" ondragover="dragover_handler(event)">Menu 3</h4>
+        <li><a id="target" ondrop="drop_handler(event)" ondragover="dragover_handler(event)" href="#">Link</a></li>
+        <li><a id="target" ondrop="drop_handler(event)" ondragover="dragover_handler(event)" href="#">Link</a></li>
+        <li><a id="target" ondrop="drop_handler(event)" ondragover="dragover_handler(event)" href="#">Link</a></li>
+        <li><a id="target" ondrop="drop_handler(event)" ondragover="dragover_handler(event)" href="#">Link</a></li>
+        <li><a id="target" ondrop="drop_handler(event)" ondragover="dragover_handler(event)" href="#">Link</a></li>
+      </ul>
+    </nav>
+  </footer>
+  <script src="post-it.js" charset="utf-8"></script>
+</body>
+</html>
